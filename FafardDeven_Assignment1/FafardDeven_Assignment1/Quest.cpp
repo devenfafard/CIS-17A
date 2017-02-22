@@ -16,9 +16,9 @@ Quest::Quest()
 {
 }
 
-Quest::Quest(string location, int level)
+Quest::Quest(string location, int _level)
 {
-	minimumLevel = level;
+	minimumLevel = _level;
 	startingLocation = location;
 }
 

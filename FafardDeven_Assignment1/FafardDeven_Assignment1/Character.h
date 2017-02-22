@@ -7,6 +7,8 @@ class Character
 	public:
 		void TakeDamage(int amount);
 		Character(string name, int age);
+		int GetLevel();
+		string GetName();
 		~Character();
 
 	private:

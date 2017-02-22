@@ -6,10 +6,10 @@ class Quest
 {
 	public:
 		int GetLevel();
-		void SetLevel(int level);
+		void SetLevel(int _level);
 
 		Quest();
-		Quest(string location, int level);
+		Quest(string location, int _level);
 		~Quest();
 
 	private:

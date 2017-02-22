@@ -8,6 +8,8 @@ class Item
 		bool isActive;
 		Item(string name, int power);
 		~Item();
+		int GetPower();
+		string GetName();
 
 	private:
 		string name;
