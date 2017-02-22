@@ -5,12 +5,11 @@ using namespace std;
 class Quest
 {
 	public:
-		int GetLevel();
-		void SetLevel(int _level);
-
 		Quest();
 		Quest(string location, int _level);
 		~Quest();
+		int GetLevel();
+		void SetLevel(int _level);
 
 	private:
 		string startingLocation;

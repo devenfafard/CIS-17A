@@ -24,7 +24,7 @@ int main()
 	}
 	else
 	{
-		cout << actor.GetName() << " passed the quest and got a " << item.GetName() << "!" << endl;
+		cout << actor.GetName() << " passed the quest and got a/an " << item.GetName() << "!" << endl;
 		actorStatus.SetHeal(true);
 	}
 

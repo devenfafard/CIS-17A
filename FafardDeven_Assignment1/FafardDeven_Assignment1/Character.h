@@ -5,11 +5,12 @@ using namespace std;
 class Character
 {
 	public:
-		void TakeDamage(int amount);
 		Character(string name, int age);
+		~Character();
+		void TakeDamage(int amount);
 		int GetLevel();
 		string GetName();
-		~Character();
+		
 
 	private:
 		string name;

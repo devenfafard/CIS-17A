@@ -5,9 +5,9 @@ using namespace std;
 class Item
 {
 	public:
-		bool isActive;
 		Item(string name, int power);
 		~Item();
+		bool isActive;
 		int GetPower();
 		string GetName();
 
