@@ -7,7 +7,7 @@ class Status
 		void SetHeal(bool status);
 
 	private:
-		bool isHealed;
+		bool isHealed = false;
 
 };
 

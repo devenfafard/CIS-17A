@@ -9,10 +9,10 @@ class Quest
 		Quest(string location, int _level);
 		~Quest();
 		int GetLevel();
-		void SetLevel(int _level);
+		string GetLocation();
 
 	private:
-		string startingLocation;
-		int minimumLevel;
+		string startingLocation = "";
+		int minimumLevel = 0;
 };
 

@@ -12,7 +12,7 @@ class Item
 		string GetName();
 
 	private:
-		string name;
-		int power;
+		string name = "";
+		int power = 0;
 };
 

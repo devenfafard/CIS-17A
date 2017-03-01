@@ -7,9 +7,9 @@ int Quest::GetLevel()
 	return minimumLevel;
 }
 
-void Quest::SetLevel(int level)
+string Quest::GetLocation()
 {
-	minimumLevel = level;
+	return startingLocation;
 }
 
 Quest::Quest()
